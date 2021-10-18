@@ -1,0 +1,42 @@
+{
+  "name": "newstore",
+  "version": "1.0.0",
+  "description": "Every module have these files\r - service: Contains core logic\r - modles: Contains modeles which connects to DB\r - validation: Contains validations",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "lodash.debounce": "^4.0.8",
+    "mocha": "^8.2.1",
+    "puppeteer-core": "^5.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.0",
+    "express-session": "^1.17.1",
+    "joi": "^17.1.1",
+    "mongoose": "^5.11.4",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4"
+  }
+}
